@@ -3,7 +3,7 @@
   "id": "reloadhotbar",
   "version": "${version}",
 
-  "name": "ReloadHotbar",
+  "name": "Reload Hotbar",
   "description": "Automatically reloads the hotbar.nbt file when the creative menu tab is opened.",
   "authors": [
     "Penguin_Spy"
@@ -16,21 +16,17 @@
   "license": "CC0-1.0",
   "icon": "assets/reloadhotbar/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "ml.cheeseos.reloadhotbar.ReloadHotbar"
-    ]
   },
   "mixins": [
     "reloadhotbar.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "minecraft": "1.16.x"
+    "fabricloader": ">=0.15.7",
+    "minecraft": "1.20.4"
   },
   "suggests": {
-    "flamingo": "*"
   }
 }

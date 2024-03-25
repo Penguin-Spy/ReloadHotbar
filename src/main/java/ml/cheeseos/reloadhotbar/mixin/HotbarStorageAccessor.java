@@ -1,13 +1,11 @@
 package ml.cheeseos.reloadhotbar.mixin;
 
-import net.minecraft.client.options.HotbarStorage;
+import net.minecraft.client.option.HotbarStorage;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.gen.Accessor;
 import org.spongepowered.asm.mixin.gen.Invoker;
 
 @Mixin(HotbarStorage.class)
-public interface HotbarStorageMixin {
+public interface HotbarStorageAccessor {
     @Invoker
-    public void invokeLoad();
-
+    void invokeLoad();
 }
