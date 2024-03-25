@@ -6,8 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "HotbarStorageMixin",
-    "CreativeInventoryScreenMixin"
+    "HotbarStorageAccessor",
+    "MinecraftClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
