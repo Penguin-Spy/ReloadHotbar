@@ -4,16 +4,16 @@
   "version": "${version}",
 
   "name": "Reload Hotbar",
-  "description": "Automatically reloads the hotbar.nbt file when the creative menu tab is opened.",
+  "description": "Automatically reloads the hotbar.nbt file when the creative menu tab is opened or when using the load hotbar hotkey.",
   "authors": [
     "Penguin_Spy"
   ],
   "contact": {
-    "homepage": "https://github.com/Penguin-Spy/HotbarStorage",
-    "sources": "https://github.com/Penguin-Spy/HotbarStorage"
+    "homepage": "https://github.com/Penguin-Spy/ReloadHotbar",
+    "sources": "https://github.com/Penguin-Spy/ReloadHotbar"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/reloadhotbar/icon.png",
 
   "environment": "client",

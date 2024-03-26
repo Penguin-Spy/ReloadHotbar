@@ -1,4 +1,4 @@
-package ml.cheeseos.reloadhotbar.mixin;
+package dev.penguinspy.reloadhotbar.mixin;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import net.minecraft.client.MinecraftClient;

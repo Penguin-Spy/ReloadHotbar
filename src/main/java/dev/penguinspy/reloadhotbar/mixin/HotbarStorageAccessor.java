@@ -1,4 +1,4 @@
-package ml.cheeseos.reloadhotbar.mixin;
+package dev.penguinspy.reloadhotbar.mixin;
 
 import net.minecraft.client.option.HotbarStorage;
 import org.spongepowered.asm.mixin.Mixin;

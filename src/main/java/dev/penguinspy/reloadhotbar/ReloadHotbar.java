@@ -1,4 +1,4 @@
-package ml.cheeseos.reloadhotbar;
+package dev.penguinspy.reloadhotbar;
 
 import net.fabricmc.api.ModInitializer;
 

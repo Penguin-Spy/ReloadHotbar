@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "ml.cheeseos.reloadhotbar.mixin",
+  "package": "dev.penguinspy.reloadhotbar.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
